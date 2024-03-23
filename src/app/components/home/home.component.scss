@@ -1,0 +1,14 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  //atentar para esse flex-direction quando for implementar responsividade
+}
+
+@media (min-width: 1080p) {
+  .main-section {
+    flex-direction: row;
+    //atentar para esse flex-direction quando for implementar responsividade
+  }
+}
