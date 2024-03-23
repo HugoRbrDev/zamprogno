@@ -4,7 +4,18 @@
   align-items: center;
   flex-direction: column;
   //atentar para esse flex-direction quando for implementar responsividade
+  font-family: "Roboto", sans-serif;
+
+  span {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 72px;
+    font-weight: 900;
+  }
 }
+
 
 @media (min-width: 1080p) {
   .main-section {
